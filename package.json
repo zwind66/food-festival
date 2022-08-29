@@ -6,8 +6,8 @@
   "scripts": {
     "webpack": "webpack --watch",
     "build": "webpack",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start:dev": "webpack serve"
+    "start:dev": "webpack serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
@@ -24,6 +24,7 @@
   "dependencies": {
     "bootstrap": "^4.3.1",
     "jquery": "^3.4.1",
-    "popper.js": "^1.16.0"
+    "popper.js": "^1.16.0",
+    "webpack-pwa-manifest": "^4.1.1"
   }
 }
